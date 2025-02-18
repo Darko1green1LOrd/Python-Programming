@@ -1,0 +1,58 @@
+#Nastavenie SOŠ Zvončeka
+#
+#
+#Nastavenie Času:
+cfg_cas:TIMEZONE
+#
+#TIMEZONE - použije Bratislava timezone čas
+#LOCAL - použije čas nastavený v počítači
+#
+#
+#
+#Nastavenie Zvuku:
+scfg_zvuk:Zvuky/zvuk1.mp3,Zvuky/zvuk2.mp3,Zvuky/zvuk3.mp3,Zvuky/zvuk4.mp3
+cfg_hlas:80
+#
+#Názov súboru - Súbor musí byť v tom istom priečinku ako program
+#Cesta k súboru - Napr: C:\WINDOWS\system32\Ahoj.mp3
+#Nastavenie hlasitosti 0 až 125
+#Ak chcete aby program náhodne vybral z viacerých zvukov, Napíšte tam viac ciest/názvov
+#Napr:   cfg_zvuk:zvuk.mp3,Zvuky/zvuk2.mp,zvuk3.mp3
+#
+#
+#
+#Nastavenie Zvonenia:
+7:00 Nultá Hodina 
+7:45 Prestávka 
+7:50 Prvá Hodina 
+8:35 Prestávka 
+8:40 Druhá Hodina 
+9:25 Prestávka 
+9:35 Tretia Hodina 
+10:20 Prestávka 
+10:25 Štvrtá Hodina 
+11:10 Prestávka 
+11:15 Piata Hodina 
+12:00 Veľká Prestávka 
+12:30 Šiesta Hodina 
+13:15 Prestávka 
+13:20 Siedma Hodina 
+14:05 Koniec --zvuk:Zvuky/zvuk4.mp3
+#
+#Čas Názov - Je potrebná medzera medzi časom a názvom
+#Hodiny:Minúty Názov
+#
+#
+#Pokročilejšie nastavenia:
+#Hodiny:Minúty:Sekundy Názov
+#
+#Môžete nastavit špeciálny zvuk pre konkrétny čas:
+#Hodiny:Minúty Názov --zvuk:zvuk.mp3
+#Hodiny:Minúty:Sekundy Názov --zvuk:zvuk.mp3
+#
+#Názov súboru - Súbor musí byť v tom istom priečinku ako program
+#Cesta k súboru - Napr: C:\WINDOWS\system32\Ahoj.mp3
+#
+#
+#
+#Tento súbor musí byť v tom istom priečinku ako program

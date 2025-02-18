@@ -1,0 +1,28 @@
+pip install -t . packagename --no-user      to install packages localy
+
+pyinstaller -w -F -i icon.ico file.py     to create onefile(-F) , noterminal(-w) exe file with icon(-i)
+
+multi ico converting website : https://www.icoconverter.com/
+
+
+
+using pyinstaller and inno setup to pack everything needed
+pyinstaller command : pyinstaller -w -i SOS_Zvoncek.ico SOS_Zvoncek.py
+
+Pridanie run.sh do kubuntu autospustenia:
+
+1. Vyhladajte v menu "spustenie"
+2. Jedna z vecí čo sa ukáže bude : "Automatické spustenie"
+3. Otvorte to
+4. Kliknite na "Pridať..."
+5. Potom kliknite na "Pridať skrpit pri prihlásení..."
+6. Vyberte run.sh
+7. Ked to pridáte bude to napravo mať Také okno a -
+8. Kliknite na to okno(vlasnosti)
+9. Kliknite na kategóriu Aplikácia
+10. Bude tam príkaz (Cesta K sh súboru)/run.sh
+11. Zmente ten príkaz na cd (Cesta K sh súboru)&&./run.sh
+
+Napríklad /home/user/Dokumenty/sos_bell/run.sh >> cd /home/user/Dokumenty/sos_bell&&./run.sh
+
+Ak vám to napíše bash: ./run.sh: Prístup odmietnutý Musíte povolit práva v vlastnostiach toho sh súbory aby ste ho mohli spúštat

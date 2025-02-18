@@ -1,0 +1,51 @@
+#This file can be renamed but if you will rename it , program wont be able to detect it automaticly
+#and you will have to specifiy it everytime you will start it
+
+
+
+#Every config goes like this configname: configvalue
+#You need to include that space
+
+
+
+scan_interval: 1.0
+
+#How often will the program checks usbs to see if any new one is plugged in
+#The interval is in seconds, you can also do stuff like 1.2 or 0.4
+
+
+
+savefolder: None
+
+#This determines where the program checks for already copied usbs
+and also copies new detected usb data here
+#if set to None the folder will be created in the same folder as the program
+#if you select already existing folder it will use that
+#Relative file locations to the python file work aswell
+
+
+
+filesize_limit: None
+
+#If you want to copy for example only maximally 5 MB files then you type here 5 MB
+#If you dont want any limit , type None
+#you can also do stuff like 1.2 or 0.4
+#Accepted formats :
+#B  (Byte)
+#KB (Kilo Byte)
+#MB (Mega Byte)
+#GB (Giga Byte)
+#TB (Tera Byte)
+#PB (Peta Byte)
+#EB (Exa Byte)
+#ZB (Zetta Byte)
+#YB (Yotta Byte)
+
+
+
+#blacklist: pptx,ctb
+#whitelist: pptx
+
+#Blacklist or Whitelist
+#Only one of these can be enabled at once
+#used to specifiy which file types to copy or not copy

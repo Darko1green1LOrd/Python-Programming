@@ -1,0 +1,14 @@
+try {
+    console.log(newContent = CryptoJS.AES.decrypt("U2FsdGVkX18VOrCe/E7nRH3mcHuuxqTFPLmx4rRfpTmHIQb5nnfNxtE+wnlbWg6e5FjPyxp3fcH2uehzifG/YPl2rAgzPOmzuguGDv4uJxGkFkXMp4qqH8letYudc6bNqsA1Vox7oB7590ay7lPQLAk/jR66zY9IlZywH/FJMEm/OIhCEMmUdLAT80bb3KuV9gUQRgA6J8TsXGeTr+A0UA==", "test").toString(CryptoJS.enc.Utf8)); // try decrypting content
+}
+catch (err) {
+    console.log("no");
+}
+console.log(CryptoJS.SHA512("/testsite_test").toString());
+console.log(CryptoJS.AES.encrypt(String("Teeeeextaaaahoj" + "f1d5821c92a0406832329eebc6e2a5a39b2015b68d43d3e9209a4f6d33f024d1c1dbf62c44312cf78caceb888d1395e6b8ba0e0b3ce07c99793f5e614dcf6950"), "test").toString());
+
+
+
+Teeeeextaaaahojf1d5821c92a0406832329eebc6e2a5a39b2015b68d43d3e9209a4f6d33f024d1c1dbf62c44312cf78caceb888d1395e6b8ba0e0b3ce07c99793f5e614dcf6950
+f1d5821c92a0406832329eebc6e2a5a39b2015b68d43d3e9209a4f6d33f024d1c1dbf62c44312cf78caceb888d1395e6b8ba0e0b3ce07c99793f5e614dcf6950
+U2FsdGVkX18AMoD7RSDgI+U9wvSy8fKioVgGjeX1azQvgbxGyGKtsyC1xohmUkh3I80hG95tpBBPWuzIHPGMspph5IoCf2gOt1JuqEKk5XAqHLDKBlPHlVp4HVVW3iASLB/n9GTWCVpRsAbwbfZHgQURBrClYFEuGqM0GWBFYaUIlVUYo1ZVyjFTd9eNmqiPJuTZtQQhHeWra9OlaEL0oQ==
